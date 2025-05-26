@@ -7,7 +7,7 @@ from ..logging import LOGGER
 LOGGER(name).info("Connecting to your Mongo Database...")
 try:
     _mongo_async_ = AsyncIOMotorClient(MONGO_DB_URI)
-    mongodb = _mongo_async_.Anon
+    mongodb = _mongo_async_.ARISHFA
     LOGGER(name).info("Connected to your Mongo Database.")
 except:
     LOGGER(name).error("Failed to connect to your Mongo Database.")
